@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>sky-server</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+            <version>1.12.18</version> <!-- 请根据实际版本进行更改 -->
+        </dependency>
 
         <dependency>
             <groupId>com.sky</groupId>
